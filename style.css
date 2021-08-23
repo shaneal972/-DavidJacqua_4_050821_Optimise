@@ -680,6 +680,10 @@ p {
     font-size: 14px;
 }
 
+blockquote, blockquote p {
+    color: #676767;
+}
+
 blockquote p {
     margin-top: 10px;
     font-size: 12px;
@@ -777,7 +781,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #C14F1C;
 }
 
 .tc-white {
