@@ -680,6 +680,12 @@ p {
     font-size: 14px;
 }
 
+blockquote p {
+    margin-top: 10px;
+    font-size: 12px;
+    font-style: italic;
+}
+
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
