@@ -534,6 +534,8 @@ a[data-lightbox] {
     position: relative;
     display: block;
     text-align: center;
+    width: 270px;
+    margin: 0 auto;
 }
 
 a[data-lightbox]:hover::before {
@@ -709,9 +711,28 @@ blockquote p {
     font-weight: 700;
 }
 
+address {
+    margin-left: 10px;
+    color: #000000;
+}
+
+.ml10 {
+    margin-left: 10px;
+}
+
+.fz14 {
+    font-size: 14px;
+}
+
 .social {
-    max-width: 400px;
-    margin: auto auto auto auto;
+    /* max-width: 400px; */
+    margin: auto 15px;
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
 }
 
 h2 {
@@ -1040,8 +1061,8 @@ h4 {
 
 @media (max-width: 400px) {
     .bloc {
-        padding-left: 0;
-        padding-right: 0;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 }
 

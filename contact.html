@@ -44,7 +44,7 @@
 					<li>
 					</li>
 					<li>
-						<a href="contact.html">Contact &gt;</a>
+						<a href="contact.html">Contact</a>
 					</li>
 				</ul>
 			</div>
@@ -76,27 +76,27 @@
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-6">
-				<form id="form_1" novalidate>
+				<form id="form_1" method="POST">
 					<div class="form-group">
-						<label>
+						<label for="name">
 							Nom
 						</label>
-						<input id="name" class="form-control" required />
+						<input type="text" id="name" class="form-control" required />
 					</div>
 					<div class="form-group">
-						<label>
+						<label for="email">
 							Adresse email
 						</label>
 						<input id="email" class="form-control" type="email" required />
 					</div>
 					<div class="form-group">
-						<label>
+						<label for="relation">
 							Comment nous avez-vous connu ?
 						</label>
-						<input class="form-control" type="email" required id="input_504" />
+						<input class="form-control" type="text" required id="relation" />
 					</div>
 					<div class="form-group">
-						<label>
+						<label for="message">
 							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
 						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
 					</div> 
@@ -107,7 +107,12 @@
 			</div>
 			<div class="col-sm-6">
 				<p>
-					<a href="mailto:contact@lachouetteagence.com">Contactez-nous</a> <br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br>
+					<a href="mailto:contact@lachouetteagence.com">Contactez-nous</a> 
+					<address>
+						2 place Sathonay <br> 
+						69001 Lyon
+					</address>
+				    <span class="ml10">	Ouvert de 9h à 18h, du lundi au vendredi</span>
 				</p>
 			</div>
 		</div>
@@ -129,26 +134,10 @@
 					La chouette agence - Agence web basée à Lyon.<br>
 				</p>
 				<div class="row row-no-gutters social">
-					<div class="col-sm-3">
-						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-twitter icon-md"></span></a>
-						</div>
-					</div>
-					<div class="col-sm-3">
-						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-facebook icon-md"></span></a>
-						</div>
-					</div>
-					<div class="col-sm-3">
-						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-dribbble icon-md"></span></a>
-						</div>
-					</div>
-					<div class="col-sm-3">
-						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-instagram icon-md"></span></a>
-						</div>
-					</div>
+					<a class="social" title="lien menant vers le réseau social twitter" href="http://twitter.com" aria-label="Twitter"><i class="fa fa-twitter icon-md"></i></a>
+					<a class="social" title="lien menant vers le réseau social facebook" href="http://facebook.com" aria-label="Facebook"><i class="fa fa-facebook icon-md"></i></a>
+					<a class="social" title="lien menant vers le réseau social dribbble" href="https://dribbble.com/" aria-label="Dribbble"><i class="fa fa-dribbble icon-md"></i></a>
+					<a class="social" title="lien menant vers le réseau social instagram" href="http://instagram.com" aria-label="Instagram"><i class="fa fa-instagram icon-md"></i></a>
 				</div>
 			</div>
 		</div>
